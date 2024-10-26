@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sandesh Uttarwar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <header>
+        <nav>
+            <div class="menu-toggle" id="menuToggle">&#9776;</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h1>Sandesh Uttarwar</h1>
+        <p class="description">Hi there! I'm a freelance web developer with a passion for creating dynamic and
+            responsive websites.</p>
+        <button onclick="window.location.href='#contact'">Hire Me</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img class="avatar" src="images/male.png" alt="Profile Picture">
+        <p class="description">I'm <strong>Sandesh Uttarwar</strong>, a dedicated Fullstack Developer. My expertise
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, ut nobis. Voluptatibus quisquam sunt
+            architecto deserunt suscipit fugit voluptates quam, fuga illo necessitatibus, quidem molestias praesentium,
+            obcaecati natus saepe. Cupiditate eos voluptatum laudantium molestiae molestias aut harum fugiat ab
+            voluptatem quisquam delectus dolore placeat fuga aspernatur aperiam ipsum, quae mollitia.</p>
+        <h3>Skills</h3>
+        <ul class="skills-list">
+            <li class="tag">HTML</li>
+            <li class="tag">CSS</li>
+            <li class="tag">JavaScript</li>
+            <li class="tag">React</li>
+            <li class="tag">Node.js</li>
+            <li class="tag">MongoDB</li>
+            <li class="tag">Express</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project">
+            <img src="images/project1.jpg" alt="Project 1">
+            <div class="project-description">
+                <h2>Toddle app</h2>
+                <p class="description"><strong>Description:</strong> An efficient project Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Doloribus perferendis
+                    modi maiores libero temporibus in laudantium, doloremque iusto. Facilis voluptates, in mollitia
+                    perspiciatis amet totam numquam culpa quo nihil quod?</p>
+                <div>
+                    <strong>Technologies:</strong> <span>HTML5, CSS3, React, Bootstrap</span>
+                </div>
+                <a href="https://github.com/project1" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="images/project2.jpg" alt="Project 2">
+            <div class="project-description">
+                <h2>BNY Banking solutions</h2>
+                <p class="description"><strong>Description:</strong> An efficient project Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Doloribus perferendis
+                    modi maiores libero temporibus in laudantium, doloremque iusto. Facilis voluptates, in mollitia
+                    perspiciatis amet totam numquam culpa quo nihil quod?</p>
+                <div>
+                    <strong>Technologies:</strong> <span>HTML5, CSS3, React, Bootstrap</span>
+                </div>
+                <a href="https://github.com/project1" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="images/project3.jpg" alt="Project 3">
+            <div class="project-description">
+                <h2>SCB Life app</h2>
+                <p class="description"><strong>Description:</strong> An efficient project Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Doloribus perferendis
+                    modi maiores libero temporibus in laudantium, doloremque iusto. Facilis voluptates, in mollitia
+                    perspiciatis amet totam numquam culpa quo nihil quod?</p>
+                <div>
+                    <strong>Technologies:</strong> <span>HTML5, CSS3, React, Bootstrap</span>
+                </div>
+                <a href="https://github.com/project1" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" id="contactForm">
+            <div>
+                <label for="name">Name:</label>
+                <input placeholder="Enter name" type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input placeholder="Enter email" type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea rows="2" id="message" placeholder="Enter message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Copyright</p>
+        <ul class="social-links">
+            <li><a href="https://linkedin.com">LinkedIn</a></li>
+            <li><a href="https://github.com">GitHub</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+        </ul>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
